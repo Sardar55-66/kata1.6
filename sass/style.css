@@ -1852,7 +1852,7 @@
             transform: translateX(0);
   }
   #menu-toggle:checked ~ .menu-btn {
-    left: 86px;
+    left: 148px;
   }
   #menu-toggle:checked ~ .main-mod {
     -webkit-transform: translateX(150%);
@@ -1864,6 +1864,7 @@
     margin-right: 45px;
   }
   .main-menu_768px {
+    padding-left: 85px;
     position: relative;
     z-index: 10;
     font-size: 16px;
