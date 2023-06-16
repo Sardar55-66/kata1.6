@@ -1747,6 +1747,9 @@
     -webkit-transform: translateX(0);
             transform: translateX(0);
   }
+  .icon-group__phone, .icon-group__chat, .icon-group__profile {
+    cursor: pointer;
+  }
   .disabled {
     display: inline-block;
   }
@@ -1780,10 +1783,12 @@
   .header__tools {
     margin: 0px;
     padding: 0px;
+    cursor: pointer;
   }
   .header__search {
     margin-left: 15px;
     padding: 0px;
+    cursor: pointer;
   }
   .wrapper_mod {
     margin-top: 40px;
@@ -1796,8 +1801,8 @@
         -ms-flex-align: center;
             align-items: center;
     position: absolute;
-    top: 25px;
-    left: 93px;
+    top: 22px;
+    left: 148px;
     width: 26px;
     height: 26px;
     cursor: pointer;
