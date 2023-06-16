@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sass/swiper-bundle.css"
+    />
+    <link rel="stylesheet" href="./sass/style.css">
+  
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="wrapper wrapper_mod">
+
+        <div class="wrapper wrapper__header">
+            Ремонт техники различных брендов
+        </div>
+
+        <!-- блоки с брендами -->
+        <div class="grid-container">
+
+            <div class="grid-container__elem">
+                <img src="./logo/lenovo.png" alt="lenovo-logo">
+                <a href="#">
+                    <img src="./logo/next-arrow.png" class="next" alt="">
+                </a>
+            </div>
+
+            <div class="grid-container__elem">
+                <img src="./logo/samsung.png" alt="samsung-logo">
+                <a href="#">
+                    <img src="./logo/next-arrow.png" class="next" alt="">
+                </a>
+            </div>
+
+            <div class="grid-container__elem">
+                <img src="./logo/apple-logo.png" alt="apple-logo">
+                <a href="#">
+                    <img src="./logo/next-arrow.png" class="next" alt="">
+                </a>
+            </div>
+
+            <div class="grid-container__elem">
+                <img src="./logo/viewsonic-logo.png" alt="views-logo">
+                <a href="#">
+                    <img src="./logo/next-arrow.png" class="next" alt="">
+                </a>
+            </div>
+
+            <div class="grid-container__elem">
+                <img src="./logo/bosch-logo.png" alt="bosch-logo">
+                <a href="#">
+                    <img src="./logo/next-arrow.png" class="next" alt="">
+                </a>
+            </div>
+
+            <div class="grid-container__elem">
+                <img src="./logo/hp-logo.png" alt="hp-logo">
+                <a href="#">
+                    <img src="./logo/next-arrow.png" class="next" alt="">
+                </a>
+            </div>
+        </div>
+
+
+            <!-- дополнительные блоки будут ниже -->
+
+        
+        <div class="second-container inactive">
+            <div class="grid-container__elem">
+                <img src="./logo/viewsonic-logo.png" alt="views-logo">
+                <a href="#">
+                    <img src="./logo/next-arrow.png" class="next" alt="">
+                </a>
+            </div>
+
+            <div class="grid-container__elem">
+                <img src="./logo/bosch-logo.png" alt="bosch-logo">
+                <a href="#">
+                    <img src="./logo/next-arrow.png" class="next" alt="">
+                </a>
+            </div>
+
+            <div class="grid-container__elem">
+                <img src="./logo/hp-logo.png" alt="hp-logo">
+                <a href="#">
+                    <img src="./logo/next-arrow.png" class="next" alt="">
+                </a>
+            </div>
+           </div>
+
+           <div class="img-for-btn"><img src="./logo/show-more-icon.png" alt=""></div>
+           <div class="show-more show-more_mod">
+            
+            <button class="show-more__btn" data-show="false" onclick="show(this)">Показать все</button>
+            </div>
+
+    
+            <!-- свайпер -->
+            <div class="swiper">
+                
+                <div class="swiper-wrapper">
+                  <!-- Слайды -->
+                  <div class="swiper-slide"><img src="./logo/lenovo.png" alt="lenovo-logo"><img src="./logo/next-arrow.png" alt=""></div>
+                  <div class="swiper-slide"><img src="./logo/samsung.png" alt="samsung-logo"><img src="./logo/next-arrow.png" alt=""></div>
+                  <div class="swiper-slide"><img src="./logo/apple-logo.png" alt="apple-logo"><img src="./logo/next-arrow.png" alt=""></div>
+                  <div class="swiper-slide"><img src="./logo/viewsonic-logo.png" alt="viewsonic-logo"><img src="./logo/next-arrow.png" alt=""></div>
+                  <div class="swiper-slide"><img src="./logo/bosch-logo.png" alt="bosch-logo"><img src="./logo/next-arrow.png" alt=""></div>
+                  <div class="swiper-slide"><img src="./logo/hp-logo.png" alt="hp-logo"><img src="./logo/next-arrow.png" alt=""></div>
+                  <div class="swiper-slide"><img src="./logo/acer-logo.png" alt="acer-logo"><img src="./logo/next-arrow.png" alt=""></div>
+                  <div class="swiper-slide"><img src="./logo/sony-logo.png" alt="sony-logo"><img src="./logo/next-arrow.png" alt=""></div>
+                  ...
+                </div>
+            
+            </div>
+
+            <div class="swiper-pagination" id="pag"></div>
+
+        </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/main.js" ></script>
+</body>
+</html>

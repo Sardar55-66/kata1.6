@@ -1,0 +1,48 @@
+
+@import '../scss-blocks/max-width-768px';
+@import '../scss-blocks/max-width-360px';
+@import '../scss-blocks/swiper-blocks';
+@import '../scss-blocks/full-page';
+@import '../scss-blocks/min-width-1024px';
+@import '../scss-blocks/min-width-1440px';
+@import '../scss-blocks/modal-windows';
+
+
+
+html, body {
+    width: 100%;
+    max-width: 100%;
+}
+body {
+    background: #F2F2F2;
+
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('../fonts/TTLakes-Medium.woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('../fonts/TTLakesCondensed-Bold.woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('../fonts/TTLakes-Regular.woff');
+    font-weight: 300;
+}
+
+body {
+    font-family: TT Lakes;
+    font-weight: 400;
+}
+

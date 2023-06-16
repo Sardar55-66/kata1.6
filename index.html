@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sass/swiper-bundle.css">
+    <link rel="stylesheet" href="./sass/style.css">
+    <link rel="stylesheet" href="./sass/uikit.css">
+    <title>Document</title>
+    
+</head>
+<body>
+
+
+
+    
+    <!-- мобилка max-width:320px -->
+
+
+<div class="wrapper">
+    <!-- <div class="divider"></div> -->
+    <div class="header header_360px header_768px">
+        <div class="header__burger">
+            <img src="./logo/logo-for-tablet/burger.png" alt="">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-btn">
+                <span></span>
+            </label>
+        </div>
+        <div class="header__logo">
+            <img src="./logo/logo-for-mobile/logo.png" alt="">
+            <img src="./logo/logo-for-mobile/loupe.png" class="loupe-image" alt="">
+        </div>
+        <div class="header-icons-wrapper">
+            <div class="icon-group icon-group_mod">
+                <img class="icon-group__phone"
+                src="./logo/logo-for-tablet/phone.png" alt="">
+                <img class="icon-group__chat" src="./logo/logo-for-tablet/chat.png" alt="">
+                <img class="icon-group__profile" src="./logo/logo-for-tablet/profile.png" alt="">
+            </div>
+            <div class="header__search">
+                <img src="./logo/logo-for-tablet/search.png" alt="">
+            </div>
+            <div class="header__tools disabled">
+                <img src="./logo/logo-for-tablet/repair.png" alt="">
+            </div>
+        </div>
+        <div class="order-wrapper">
+            <div class="leave-order">
+                <span>Оставить заявку</span>
+                <button class="leave-order__btn">
+                    <img src="./logo/logo-for-full/repair.png" alt="">
+                </button>
+            </div>
+    
+            <div class="check-repair">
+                <span>Статус ремонта</span>
+                 <button class="check-repair__btn">
+                    <img src="./logo/logo-for-full/search.png" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+<div class="menu-wrapper inactive-menu">
+    <ul class="main-menu main-menu_360px main-menu_768px" id="main-menu-list">
+        <li class="menu_li active"><a href="#">Ремонт техники</a></li>
+        <li class="menu_li"><a href="./pages/services.html">Услуги и сервисы</a></li>
+        <li class="menu_li"><a href="#">Корпоративным клиентам</a></li>
+        <li class="menu_li"><a href="#">Продавцам техники</a></li>
+        <li class="menu_li"><a href="#">Партнерам</a></li>
+        <li class="menu_li"><a href="#">Производителям</a></li>
+        <li class="menu_li"><a href="#">Наши сервисные центры</a></li>
+        <li class="menu_li"><a href="#">Контакты</a></li>
+    </ul>
+
+
+
+
+<div class="footer footer_768px footer_360px">
+    <div class="footer__icon-group">
+        <div class="footer__phone">
+            <img src="./logo/logo-for-tablet/phone.png" alt="">
+        </div>
+        <div class="footer__chat">
+            <img src="./logo/logo-for-tablet/chat.png" alt="">
+        </div>
+        <div class="footer__contact">
+            <img src="./logo/logo-for-tablet/profile.png" alt="">
+        </div>
+    </div>
+
+    <div class="footer__mail">
+        <a href="#">mail@cps.com</a>
+    </div>
+
+    <div class="footer__number"><a href="tel:+78008908900">8 800 890 8900</a></div>
+    
+    <div class="footer__lang-group">
+        <div class="lang-block__ru lang-active">RU</div>
+        <div class="lang-block__en">EN</div>
+        <div class="lang-block__ch">CH</div>
+    </div>
+
+</div>
+</div>
+
+
+
+
+<!-- основная часть -->
+<div class="main main-mod main-mod-not-move" id="for1440px">
+
+    <div class="title title_mod">Услуги и сервисы</div>
+
+    <!-- <div class="order-wrapper">
+        <div class="leave-order">
+            <span>Оставить заявку</span>
+            <button class="leave-order__btn">
+                <img src="./logo/logo-for-full/repair.png" alt="">
+            </button>
+        </div>
+
+        <div class="check-repair">
+            <span>Статус ремонта</span>
+             <button class="check-repair__btn">
+                <img src="./logo/logo-for-full/search.png" alt="">
+            </button>
+        </div>
+    </div> -->
+
+
+    <div class="button-group button-group_mod">
+        <div class="button-brands btn">
+            Ремонтируемые бренды
+        </div>
+        <div class="button-group__devices btn">
+            Ремонтируемые устройства
+        </div>
+        <div class="button-group__add-price btn">
+            Дополнительные услуги
+        </div>
+        <div class="button-group__prices btn">
+            Цены на услуги
+        </div>
+        <div class="button-group__addresses btn">
+            Адреса сервисных центров
+        </div>
+        <div class="button-group__spec-prices btn">
+            Специальные цены
+        </div>
+    </div>
+
+    <div class="text text_mod ">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+        <br><br>
+        Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+    </div>
+
+
+<div class="further-wrapper further-wrapper_mod">
+    <div class="read-further read-further_mod">
+        <img src="./logo/logo-for-mobile/read-further-arrow.png" alt="" class="read-further__logo">
+        <p class="read-further__text">Читать далее</p>
+    </div>
+</div>
+<div class="main-image main-image_mod">
+    <img src="./img/img-for full/footer-img.png" alt="cps-logo">
+</div>
+</div>
+
+<!-- реионт брендов -->
+<div class="wrapper wrapper_mod">
+
+    <div class="wrapper wrapper__header">
+        Ремонт техники различных брендов
+    </div>
+
+    <!-- блоки с брендами -->
+    <div class="grid-container">
+
+        <div class="grid-container__elem">
+            <img src="./logo/logo-blocks/lenovo.png" alt="lenovo-logo">
+            <a href="#">
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+
+        <div class="grid-container__elem">
+            <img src="./logo/logo-blocks/samsung.png" alt="samsung-logo">
+            <a href="#">
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+
+        <div class="grid-container__elem">
+            <img src="./logo/logo-blocks/apple-logo.png" alt="apple-logo">
+            <a href="#">
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+
+        <div class="grid-container__elem">
+            <img src="./logo/logo-blocks/viewsonic-logo.png" alt="views-logo">
+            <a href="#">
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+
+        <div class="grid-container__elem">
+            <img src="./logo/logo-blocks/bosch-logo.png" alt="bosch-logo">
+            <a href="#">
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+
+        <div class="grid-container__elem">
+            <img src="./logo/logo-blocks/hp-logo.png" alt="hp-logo">
+            <a href="#">
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+    </div>
+
+
+        <!-- дополнительные блоки будут ниже -->
+
+    
+    <div class="second-container inactive">
+        <div class="grid-container__elem">
+            <img src="./logo/logo-blocks/viewsonic-logo.png" alt="views-logo">
+            <a href="#">
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+
+        <div class="grid-container__elem">
+            <img src="./logo/logo-blocks/bosch-logo.png" alt="bosch-logo">
+            <a href="#">
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+
+        <div class="grid-container__elem">
+            <img src="./logo/logo-blocks/hp-logo.png" alt="hp-logo">
+            <a href="#">
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+       </div>
+
+       <div class="img-for-btn"><img src="./logo/logo-blocks/show-more-icon.png" alt=""></div>
+       
+
+            <div class="show-more show-more_mod">
+        <button class="show-more__btn" data-show="false">Показать все</button>
+        </div>
+
+
+        <!-- свайпер -->
+        <div class="swiper">
+            
+            <div class="swiper-wrapper">
+              <!-- Слайды -->
+              <div class="swiper-slide"><img src="./logo/logo-blocks/lenovo.png" alt="lenovo-logo"><img src="./logo/logo-blocks/next-arrow.png" alt=""></div>
+              <div class="swiper-slide"><img src="./logo/logo-blocks/samsung.png" alt="samsung-logo"><img src="./logo/logo-blocks/next-arrow.png" alt=""></div>
+              <div class="swiper-slide"><img src="./logo/logo-blocks/apple-logo.png" alt="apple-logo"><img src="./logo/logo-blocks/next-arrow.png" alt=""></div>
+              <div class="swiper-slide"><img src="./logo/logo-blocks/viewsonic-logo.png" alt="viewsonic-logo"><img src="./logo/logo-blocks/next-arrow.png" alt=""></div>
+              <div class="swiper-slide"><img src="./logo/logo-blocks/bosch-logo.png" alt="bosch-logo"><img src="./logo/logo-blocks/next-arrow.png" alt=""></div>
+              <div class="swiper-slide"><img src="./logo/logo-blocks/hp-logo.png" alt="hp-logo"><img src="./logo/logo-blocks/next-arrow.png" alt=""></div>
+              <div class="swiper-slide"><img src="./logo/logo-blocks/acer-logo.png" alt="acer-logo"><img src="./logo/logo-blocks/next-arrow.png" alt=""></div>
+              <div class="swiper-slide"><img src="./logo/logo-blocks/sony-logo.png" alt="sony-logo"><img src="./logo/logo-blocks/next-arrow.png" alt=""></div>
+              ...
+            </div>
+        
+        </div>
+
+        <div class="swiper-pagination" id="pag"></div>
+
+</div>
+
+
+
+
+<!-- ремонт видов техники -->
+<div class="wrapper wrapper_mod">
+
+    <div class="wrapper wrapper__header">
+        Ремонт техники различных видов техники
+    </div>
+
+    <!-- блоки с брендами -->
+    <div class="grid-container grid-container_technics">
+
+        <div class="grid-container__elem grid-container__elem_technics">
+            <div class="grid-container__text">Ремонт ноутбуков </div>
+            <!-- <img src="./logo/logo-blocks/lenovo.png" alt="lenovo-logo">
+            <a href="#"> -->
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+
+        <div class="grid-container__elem grid-container__elem_technics">
+            <div class="grid-container__text">Ремонт планшетов</div>
+            <!-- <img src="./logo/logo-blocks/samsung.png" alt="samsung-logo">
+            <a href="#"> -->
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+
+        <div class="grid-container__elem grid-container__elem_technics">
+            <div class="grid-container__text">Ремонт ПК</div>
+            <!-- <img src="./logo/logo-blocks/apple-logo.png" alt="apple-logo">
+            <a href="#"> -->
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+
+        <div class="grid-container__elem grid-container__elem_technics">
+            <div class="grid-container__text">Ремонт  мониторов </div>
+            <!-- <img src="./logo/logo-blocks/viewsonic-logo.png" alt="views-logo">
+            <a href="#"> -->
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+
+        <div class="grid-container__elem grid-container__elem_technics">
+            <div class="grid-container__text">#text sample</div>
+            <!-- <img src="./logo/logo-blocks/bosch-logo.png" alt="bosch-logo">
+            <a href="#"> -->
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+
+        <div class="grid-container__elem grid-container__elem_technics">
+            <div class="grid-container__text">#text sample</div>
+            <!-- <img src="./logo/logo-blocks/hp-logo.png" alt="hp-logo">
+            <a href="#"> -->
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+    </div>
+
+
+        <!-- дополнительные блоки будут ниже -->
+
+    
+    <div class="second-container inactive">
+        <div class="grid-container__elem">
+            <img src="./logo/logo-blocks/viewsonic-logo.png" alt="views-logo">
+            <a href="#">
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+
+        <div class="grid-container__elem">
+            <img src="./logo/logo-blocks/bosch-logo.png" alt="bosch-logo">
+            <a href="#">
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+
+        <div class="grid-container__elem">
+            <img src="./logo/logo-blocks/hp-logo.png" alt="hp-logo">
+            <a href="#">
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+       </div>
+
+       <div class="img-for-btn"><img src="./logo/logo-blocks/show-more-icon.png" alt=""></div>
+       <div class="show-more show-more_mod">
+        
+        <button class="show-more__btn" data-show="false" onclick="show(this)">Показать все</button>
+        </div>
+
+
+        <!-- свайпер -->
+        <div class="swiper">
+            
+            <div class="swiper-wrapper">
+            
+              <div class="swiper-slide"><img src="./logo/logo-blocks/lenovo.png" alt="lenovo-logo"><img src="./logo/logo-blocks/next-arrow.png" alt=""></div>
+              <div class="swiper-slide"><img src="./logo/logo-blocks/samsung.png" alt="samsung-logo"><img src="./logo/logo-blocks/next-arrow.png" alt=""></div>
+              <div class="swiper-slide"><img src="./logo/logo-blocks/apple-logo.png" alt="apple-logo"><img src="./logo/logo-blocks/next-arrow.png" alt=""></div>
+              <div class="swiper-slide"><img src="./logo/logo-blocks/viewsonic-logo.png" alt="viewsonic-logo"><img src="./logo/logo-blocks/next-arrow.png" alt=""></div>
+              <div class="swiper-slide"><img src="./logo/logo-blocks/bosch-logo.png" alt="bosch-logo"><img src="./logo/logo-blocks/next-arrow.png" alt=""></div>
+              <div class="swiper-slide"><img src="./logo/logo-blocks/hp-logo.png" alt="hp-logo"><img src="./logo/logo-blocks/next-arrow.png" alt=""></div>
+              <div class="swiper-slide"><img src="./logo/logo-blocks/acer-logo.png" alt="acer-logo"><img src="./logo/logo-blocks/next-arrow.png" alt=""></div>
+              <div class="swiper-slide"><img src="./logo/logo-blocks/sony-logo.png" alt="sony-logo"><img src="./logo/logo-blocks/next-arrow.png" alt=""></div>
+              ...
+            </div>
+        
+        </div>
+
+        <div class="swiper-pagination" id="pag"></div>
+
+</div>
+
+<!-- 
+    <div class="subtext">
+        <span>
+            Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.
+        </span>
+    </div>
+
+
+    
+
+
+    <div class="commercial">
+        <button class="commercial__btn">
+            <a href="#">Получить коммерческое предложение</a>
+        </button>
+    </div>
+
+
+
+
+
+    <div class="page-footer">
+        <div>
+            © 2019 CPS <br> Разработано командой Apesong 
+        </div>
+
+
+        <div>
+            Политика конфиденциальности
+        </div>
+
+
+        <div>
+            Информация, размещенная на данной странице, не является публичной офертой
+        </div>
+    </div> -->
+
+<!-- цены на услуги -->
+<div class="wrapper wrapper_mod grid">
+
+    <div class="header_title">
+        цены на услуги
+    </div>
+
+    <!-- блоки с брендами -->
+    <div class="grid-container_price">
+
+        <div class="grid-container__elem_price title-price first">
+            Ремонтные услуги
+        </div>
+
+        <div class="grid-container__elem_price title-price second">
+            Цена
+        </div>
+
+        <div class="grid-container__elem_price title-price third">
+            Срок
+        </div>
+
+
+        <!-- услуги первый ряд -->
+        <div class="grid-container__elem_price">
+            Диагностика
+        </div>
+
+        <div class="grid-container__elem_price">
+            Бесплатно
+        </div>
+
+        <div class="grid-container__elem_price">
+            30 мин
+        </div>
+        <div class="grid-container__elem_price">
+            <button class="for-order"><span>Заказать</span></button>
+        </div>
+
+        <!-- услуги второй ряд -->
+        <div class="grid-container__elem_price">
+            Замена дисплея
+        </div>
+
+        <div class="grid-container__elem_price">
+            1 000 ₽
+        </div>
+
+        <div class="grid-container__elem_price">
+            30-120 мин
+        </div>
+        <div class="grid-container__elem_price">
+            <button class="for-order"><span>Заказать</span></button>
+        </div>
+
+                <!-- услуги третий ряд -->
+        <div class="grid-container__elem_price">
+            Замена полифонического динамика
+        </div>
+
+        <div class="grid-container__elem_price">
+            1 000 ₽
+        </div>
+
+        <div class="grid-container__elem_price">
+            30-120 мин
+        </div>
+        <div class="grid-container__elem_price">
+            <button class="for-order"><span>Заказать</span></button>
+        </div>
+
+
+          <!-- услуги четвертый ряд -->
+          <div class="grid-container__elem_price">
+            Тестирование с выдачей технического заключения
+        </div>
+
+        <div class="grid-container__elem_price">
+            1 000 ₽
+        </div>
+
+        <div class="grid-container__elem_price">
+            30-120 мин
+        </div>
+        <div class="grid-container__elem_price">
+            <button class="for-order"><span>Заказать</span></button>
+        </div>
+
+
+        
+          <!-- услуги аятый ряд -->
+          <div class="grid-container__elem_price">
+            Замена программного обеспечения
+        </div>
+
+        <div class="grid-container__elem_price">
+            1 000 ₽
+        </div>
+
+        <div class="grid-container__elem_price">
+            30-120 мин
+        </div>
+        <div class="grid-container__elem_price">
+            <button class="for-order"><span>Заказать</span></button>
+        </div>
+    </div>
+
+
+        <!-- дополнительные блоки будут ниже -->
+
+    
+    <div class="second-container inactive">
+        <div class="grid-container__elem">
+            <img src="./logo/logo-blocks/viewsonic-logo.png" alt="views-logo">
+            <a href="#">
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+
+        <div class="grid-container__elem">
+            <img src="./logo/logo-blocks/bosch-logo.png" alt="bosch-logo">
+            <a href="#">
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+
+        <div class="grid-container__elem">
+            <img src="./logo/logo-blocks/hp-logo.png" alt="hp-logo">
+            <a href="#">
+                <img src="./logo/logo-blocks/next-arrow.png" class="next" alt="">
+            </a>
+        </div>
+       </div>
+
+       <div class="img-for-btn"><img src="./logo/logo-blocks/show-more-icon.png" alt=""></div>
+
+       <div class="show-more show-more_mod">
+        
+        <button class="show-more__btn" data-show="false" onclick="show(this)">Показать все</button>
+        </div>
+
+        
+        <!-- свайпер -->
+        <div class="swiper">
+            
+            <div class="swiper-wrapper">
+              <!-- Слайды -->
+              <div class="swiper-slide"><div class="grid-container__text">Ремонт ноутбуков </div><img src="./logo/logo-blocks/next-arrow.png" class="next" alt=""></div>
+              <div class="swiper-slide"><div class="grid-container__text">Ремонт планшетов </div><img src="./logo/logo-blocks/next-arrow.png" class="next" alt=""></div>
+              <div class="swiper-slide"><div class="grid-container__text">Ремонт ПК </div><img src="./logo/logo-blocks/next-arrow.png" class="next" alt=""></div>
+              <div class="swiper-slide"><div class="grid-container__text">Ремонт мониторов </div><img src="./logo/logo-blocks/next-arrow.png" class="next" alt=""></div>
+              <div class="swiper-slide"><div class="grid-container__text">#text sample </div><img src="./logo/logo-blocks/next-arrow.png" class="next" alt=""></div>
+              <div class="swiper-slide"><div class="grid-container__text">#text sample </div><img src="./logo/logo-blocks/next-arrow.png" class="next" alt=""></div>
+              ...
+            </div>
+        
+        </div>
+
+        <div class="swiper-pagination" id="pag"></div>
+
+</div>
+
+
+
+<div class="swiper swiper-for-mobile">
+            
+    <div class="swiper-wrapper">
+      <!-- Слайды -->
+      <div class="swiper-slide swiper-box">
+        <div class="swiper-title">Ремонтные услуги</div>
+        <div class="swiper-title__text">Тестирование с выдачей технического заключения</div>
+        <div class="swiper-price">Цена</div>
+        <div class="swiper-price__text">Бесплатно</div>
+        <div class="swiper-duration">Срок</div>
+        <div class="swiper-duration__text">30-120 мин</div>
+        <button class="swiper-order-serv">Заказать</button>
+      </div>
+      <div class="swiper-slide swiper-box">
+        <div class="swiper-title">Ремонтные услуги</div>
+        <div class="swiper-title__text">Тестирование с выдачей технического заключения</div>
+        <div class="swiper-price">Цена</div>
+        <div class="swiper-price__text">Бесплатно</div>
+        <div class="swiper-duration">Срок</div>
+        <div class="swiper-duration__text">30-120 мин</div>
+        <button class="swiper-order-serv">Заказать</button>
+      </div>
+      <div class="swiper-slide swiper-box">
+        <div class="swiper-title">Ремонтные услуги</div>
+        <div class="swiper-title__text">Тестирование с выдачей технического заключения</div>
+        <div class="swiper-price">Цена</div>
+        <div class="swiper-price__text">Бесплатно</div>
+        <div class="swiper-duration">Срок</div>
+        <div class="swiper-duration__text">30-120 мин</div>
+        <button class="swiper-order-serv">Заказать</button>
+      </div>
+      <div class="swiper-slide swiper-box">
+        <div class="swiper-title">Ремонтные услуги</div>
+        <div class="swiper-title__text">Тестирование с выдачей технического заключения</div>
+        <div class="swiper-price">Цена</div>
+        <div class="swiper-price__text">Бесплатно</div>
+        <div class="swiper-duration">Срок</div>
+        <div class="swiper-duration__text">30-120 мин</div>
+        <button class="swiper-order-serv">Заказать</button>
+      </div>
+      <div class="swiper-slide swiper-box">
+        <div class="swiper-title">Ремонтные услуги</div>
+        <div class="swiper-title__text">Тестирование с выдачей технического заключения</div>
+        <div class="swiper-price">Цена</div>
+        <div class="swiper-price__text">Бесплатно</div>
+        <div class="swiper-duration">Срок</div>
+        <div class="swiper-duration__text">30-120 мин</div>
+        <button class="swiper-order-serv">Заказать</button>
+      </div>
+      <div class="swiper-slide swiper-box">
+        <div class="swiper-title">Ремонтные услуги</div>
+        <div class="swiper-title__text">Тестирование с выдачей технического заключения</div>
+        <div class="swiper-price">Цена</div>
+        <div class="swiper-price__text">Бесплатно</div>
+        <div class="swiper-duration">Срок</div>
+        <div class="swiper-duration__text">30-120 мин</div>
+        <button class="swiper-order-serv">Заказать</button>
+      </div>
+      ...
+    </div>
+
+</div>
+
+<div class="swiper-pagination" id="pag"></div>
+
+
+
+
+    <div class="subtext">
+        <span>
+            Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.
+        </span>
+    </div>
+
+
+
+
+
+    <div class="commercial">
+        <button class="commercial__btn">
+            <a href="#">Получить коммерческое предложение</a>
+        </button>
+    </div>
+
+
+
+
+
+    <div class="page-footer">
+        <div>
+            © 2019 CPS <br> Разработано командой Apesong 
+        </div>
+
+
+        <div>
+            Политика конфиденциальности
+        </div>
+
+
+        <div>
+            Информация, размещенная на данной странице, не является публичной офертой
+        </div>
+    </div>
+
+
+
+
+    <div class="modal-call modal-inactive">
+        <div class="modal-call__window">
+            <div class="modal-call__title">Заказать звонок</div>
+            <form action="#" class="forms modal-call__form">
+                <input type="tel" placeholder="Телефон">
+                <div class="modal-call__terms">
+                    Нажимая “отправить”, вы даете согласие на <span class="personal-data">обработку персональных данных</span> и соглашаетесь с нашей <span class="confidential-policy">политикой конфиденциальности</span>
+                </div>
+                <input type="submit" name="" id="" class="modal-call__btn">
+            </form>
+        </div>
+        <button type="button" uk-close aria-label="Закрыть" class="modal-call-close"></button>
+    </div>
+
+    <div class="modal-feedback modal-inactive">
+        <div class="modal-feedback__window">
+            <div class="modal-feedback__title">Обратная связь</div>
+            <form action="#" class="forms modal-feedback__form">
+                <input type="text" placeholder="Имя">
+                <input type="tel" placeholder="Телефон">
+                <input type="email" placeholder="Почта">
+                <input type="text" placeholder="Сообщение">
+                <div class="modal-feedback__terms">
+                    Нажимая “отправить”, вы даете согласие на <span class="personal-data">обработку персональных данных</span> и соглашаетесь с нашей <span class="confidential-policy">политикой конфиденциальности</span>
+                </div>
+                <input type="submit" name="" id="" class="modal-feedback__btn">
+            </form>
+            
+        </div>
+        <button type="button" uk-close aria-label="Закрыть" class="modal-feedback-close"></button>
+    </div>
+
+
+
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="./js/uikit-icons.js"></script>
+<script src="./js/uikit.js"></script>
+<script src="./js/swiper.js"></script>
+<script src="./js/main.js"></script>
+
+
+
+</body>
+</html>
